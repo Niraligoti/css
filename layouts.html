@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>create layouts</title>
+    <style>
+        .row-1{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 20px;
+        }
+        .row-2{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 20px;
+        }
+        .n1{
+            height: 200px;
+            width: 400px;
+        }
+        .front{
+            height: 100px;
+            width: 400px;
+            background-color: gray;
+            color: white;
+            text-align: center;
+        }
+        .front h2{
+           padding: 35px;
+        }
+        .btn-1{
+            border: 2px solid black;
+            border-radius: 3px;
+            background-color: white;
+        }
+        .btn-2{
+            border: 2px solid black;
+            border-radius: 3px;
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="layout">
+        <div class="row-1">
+            <div class="n1">
+                <div class="front"><h2>Nirali</h2></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro fuga modi laudantium harum adipisci optio, reprehenderit, nulla atque quaerat eaque</p>
+                <button class="btn-1">view</button>
+                <button class="btn-2">Edit</button>
+            </div>
+            <div class="n2">
+                <div class="front"><h2>Nirali</h2></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro fuga modi laudantium harum adipisci optio, reprehenderit, nulla atque quaerat eaque</p>
+                <button class="btn-1">view</button>
+                <button class="btn-2">Edit</button>
+            </div>
+            <div class="n3">
+                <div class="front"><h2>Nirali</h2></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro fuga modi laudantium harum adipisci optio, reprehenderit, nulla atque quaerat eaque</p>
+                <button class="btn-1">view</button>
+                <button class="btn-2">Edit</button>
+            </div>
+        </div>
+        <div class="row-2">
+            <div class="n4">
+                <div class="front"><h2>Nirali</h2></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro fuga modi laudantium harum adipisci optio, reprehenderit, nulla atque quaerat eaque</p>
+                <button class="btn-1">view</button>
+                <button class="btn-2">Edit</button>
+            </div>
+            <div class="n5">
+                <div class="front"><h2>Nirali</h2></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro fuga modi laudantium harum adipisci optio, reprehenderit, nulla atque quaerat eaque</p>
+                <button class="btn-1">view</button>
+                <button class="btn-2">Edit</button>
+            </div>
+            <div class="n6">
+                <div class="front"><h2>Nirali</h2></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro fuga modi laudantium harum adipisci optio, reprehenderit, nulla atque quaerat eaque</p>
+                <button class="btn-1">view</button>
+                <button class="btn-2">Edit</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
